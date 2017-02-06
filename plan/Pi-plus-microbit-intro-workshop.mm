@@ -1,6 +1,6 @@
 <map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node ID="Freemind_Link_1331878192" CREATED="1266488194781" MODIFIED="1486052393980"><richcontent TYPE="NODE">
+<node ID="Freemind_Link_1331878192" CREATED="1266488194781" MODIFIED="1486207365775"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -14,10 +14,11 @@
       intro workshop
     </p>
     <p style="text-align: center">
-      content
+      development
     </p>
   </body>
 </html>
+
 </richcontent>
 <hook NAME="MapStyle">
 
@@ -186,9 +187,11 @@
 <node TEXT="buttons" ID="ID_678217082" CREATED="1486111114451" MODIFIED="1486111119361">
 <node TEXT="check a button" ID="ID_1733333113" CREATED="1486120386977" MODIFIED="1486120394093"/>
 </node>
+<node TEXT="sorting hat" ID="ID_604430207" CREATED="1486126643321" MODIFIED="1486207796258">
 <node TEXT="fortune cookie" ID="ID_1311512977" CREATED="1486111124995" MODIFIED="1486111281192">
 <node TEXT="pick from a list at random" ID="ID_295584071" CREATED="1486120398881" MODIFIED="1486120413093"/>
 <node TEXT="print to the pi" ID="ID_106779249" CREATED="1486120414001" MODIFIED="1486120426150"/>
+</node>
 </node>
 <node TEXT="reaction timer" ID="ID_554094840" CREATED="1486111155620" MODIFIED="1486111164161">
 <node TEXT="basic" ID="ID_347717011" CREATED="1486111175612" MODIFIED="1486111178968"/>
@@ -198,7 +201,6 @@
 <node TEXT="delay" ID="ID_9085212" CREATED="1486111151099" MODIFIED="1486111154609"/>
 </node>
 <node TEXT="accelerometer" ID="ID_994934874" CREATED="1486120472513" MODIFIED="1486120481766"/>
-<node TEXT="https://microbit-playground.co.uk/programs/sorting-hat" ID="ID_604430207" CREATED="1486126643321" MODIFIED="1486126647070"/>
 </node>
 </node>
 <node TEXT="Develop" ID="ID_1583658497" CREATED="1463654419456" MODIFIED="1463654428341">
@@ -249,6 +251,9 @@
 </node>
 <node TEXT="Record" POSITION="left" ID="Freemind_Link_813012694" CREATED="1266488248876" MODIFIED="1266488728945" COLOR="#27444b">
 <icon BUILTIN="pencil"/>
+<node TEXT="content" ID="ID_1536354141" CREATED="1486207390890" MODIFIED="1486207390893" LINK="Content.mm">
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
 </node>
 <node TEXT="Resources" POSITION="left" ID="Freemind_Link_1594441695" CREATED="1273319832507" MODIFIED="1296303609303" COLOR="#33ff33">
 <icon BUILTIN="password"/>
