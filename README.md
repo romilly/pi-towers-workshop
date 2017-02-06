@@ -13,7 +13,7 @@ I plan to publish a longer workbook as a free eBook on Leanpub under a similar l
 
 ## Publication process
 
-I'm writing the workbook as a mind map (see Content.mm in this GitHub project).
+I'm writing the workbook as a mind map (see plan/Content.mm in this GitHub project).
 
 I will then use my fm2md python script to convert the mindmap to Markdown in the
 format required by Leanpub.
