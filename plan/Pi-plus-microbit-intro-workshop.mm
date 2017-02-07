@@ -18,9 +18,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <hook NAME="MapStyle">
+    <properties show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
@@ -215,7 +215,28 @@
 <node TEXT="Review" ID="ID_996785710" CREATED="1463654557444" MODIFIED="1463654560432"/>
 </node>
 </node>
-<node TEXT="Tasks" POSITION="right" ID="Freemind_Link_857865306" CREATED="1266488223477" MODIFIED="1266488636684" COLOR="#de5613"/>
+<node TEXT="Tasks" POSITION="right" ID="Freemind_Link_857865306" CREATED="1266488223477" MODIFIED="1266488636684" COLOR="#de5613">
+<node TEXT="review" ID="ID_1576392858" CREATED="1486385289014" MODIFIED="1486385294227">
+<node TEXT="@ntoll&apos;s worksheet" ID="ID_115466546" CREATED="1486385295254" MODIFIED="1486385313148"/>
+<node TEXT="@Raspberry_Pi worksheet" ID="ID_1386077525" CREATED="1486385313686" MODIFIED="1486385352451"/>
+</node>
+<node TEXT="write end" ID="ID_1967591136" CREATED="1486385358422" MODIFIED="1486385370074"/>
+<node TEXT="write start" ID="ID_1327619432" CREATED="1486385370935" MODIFIED="1486385393194"/>
+<node TEXT="decide" ID="ID_1825370252" CREATED="1486385397038" MODIFIED="1486385430698"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      visuals as well as worksheet
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node TEXT="Review" POSITION="left" ID="Freemind_Link_1153466861" CREATED="1266488259116" MODIFIED="1266488895851" COLOR="#fb1802">
 <icon BUILTIN="xmag"/>
 <node TEXT="WW" ID="Freemind_Link_1466796877" CREATED="1266488965666" MODIFIED="1296303686570" COLOR="#ffcc00" BACKGROUND_COLOR="#006666">
@@ -251,7 +272,7 @@
 </node>
 <node TEXT="Record" POSITION="left" ID="Freemind_Link_813012694" CREATED="1266488248876" MODIFIED="1266488728945" COLOR="#27444b">
 <icon BUILTIN="pencil"/>
-<node TEXT="content" ID="ID_1536354141" CREATED="1486207390890" MODIFIED="1486207390893" LINK="Content.mm">
+<node TEXT="content" ID="ID_1536354141" CREATED="1486207390890" MODIFIED="1486455385707" LINK="workshop-content.mm">
 <edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
 </node>
 </node>

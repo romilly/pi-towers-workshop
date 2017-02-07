@@ -1,6 +1,28 @@
 <map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="content" ID="ID_1505706922" CREATED="1486207335557" MODIFIED="1486207390847" LINK="Pi-plus-microbit-intro-workshop.mm">
+<node ID="ID_1505706922" CREATED="1486207335557" MODIFIED="1486455135234" LINK="Pi-plus-microbit-intro-workshop.mm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="text-align: center">
+      microbit
+    </p>
+    <p style="text-align: center">
+      intro
+    </p>
+    <p style="text-align: center">
+      workshop
+    </p>
+    <p style="text-align: center">
+      content
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
 <hook NAME="MapStyle">
 
@@ -70,7 +92,5 @@
 <node TEXT="More stuff the micro:bit can do" ID="ID_699194136" CREATED="1486208144933" MODIFIED="1486208174932"/>
 <node TEXT="Where to find out more" ID="ID_1125025479" CREATED="1486208176053" MODIFIED="1486208189811"/>
 </node>
-<node TEXT="More about the micro:bit" POSITION="left" ID="ID_1994174090" CREATED="1486207831325" MODIFIED="1486208074858"/>
-<node TEXT="More about MicroPython" POSITION="left" ID="ID_345021177" CREATED="1486208075557" MODIFIED="1486208089675"/>
 </node>
 </map>
