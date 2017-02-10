@@ -44,6 +44,8 @@ In the `happy.py` window, add tow lines to the end of the program:
     sleep(1000)
     display.show(Image.SAD)
     
+\newpage
+
 Your editor window should look like this:
 
 ![Happy then sad](images/happy2.png)
