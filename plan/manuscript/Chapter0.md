@@ -20,7 +20,7 @@ own projects.
 
 At the end of this workbook you will find some links to help you explore once the workshop is over 
 
-##Don't feel you have to finish everything today
+##You don't have to finish everything today
 
 I hope you'll have plenty of fun things to do over the next 60 minutes, but don't feel you have to do all of
 the experiments today. You will be able to keep this workbook and use it once the workshop is over.
