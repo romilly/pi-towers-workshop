@@ -41,7 +41,7 @@ the micro:bit.
 
 ###Troubleshooting
 
-The display is over quite quickly. If you missed it, just press the button that is
+The display will finish quite quickly. If you missed it, just press the button that is
 underneath the microbit next to the USB cable. This will restart the micro:bit and your program will re-run.
 
 If you don't see the display that you expected, here are some steps to help you
