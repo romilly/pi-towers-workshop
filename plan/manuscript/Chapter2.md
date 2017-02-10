@@ -30,12 +30,9 @@ Call the file `hw.py`
 Press the button and a dialogue box should appear:
 
    ![Flashing dialogue](images/flash.png)
-
-   After a few seconds, another dialogue will open: your old friend!
-
-   ![screen2](images/screen2.png)
    
-1. You can close both dialogues.
+   After a few seconds, another dialogue will open, telling you about the
+   remountable file system. You can close both dialogues.
 
 Once your program has been *flashed* (installed in the micro:bit's memory),
 you should see 'Hello World' scroll across the LEDs on the front of
