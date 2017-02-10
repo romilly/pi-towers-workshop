@@ -35,7 +35,7 @@ Press the button and a dialogue box should appear:
 
    ![screen2](images/screen2.png)
    
-1. You can close both dyalogues.
+1. You can close both dialogues.
 
 Once your program has been *flashed* (installed in the micro:bit's memory),
 you should see 'Hello World' scroll across the LEDs on the front of
