@@ -134,7 +134,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="What you will do" ID="ID_1733109977" CREATED="1486720268572" MODIFIED="1486720275818"/>
 <node TEXT="Typing in a program" ID="ID_589419269" CREATED="1486208271693" MODIFIED="1486720131629"><richcontent TYPE="NOTE">
@@ -170,7 +169,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Import statements" ID="ID_1730334690" CREATED="1486208289246" MODIFIED="1486567289484"><richcontent TYPE="NOTE">
 
@@ -204,7 +202,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -259,6 +256,27 @@
 <node TEXT="microbit news" ID="ID_520186512" CREATED="1486720619903" MODIFIED="1486720633072"/>
 <node TEXT="RAREblog" ID="ID_1340206960" CREATED="1486720634623" MODIFIED="1486720641464"/>
 </node>
+</node>
+<node TEXT="Credits and Copyright" POSITION="left" ID="ID_251264544" CREATED="1486729850564" MODIFIED="1486730004176"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Content (c) Raspberry Pi foundation, Romilly Cocking 2016, 2017
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      This material is licensed under a Creative Commons N
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </map>
