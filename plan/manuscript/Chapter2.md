@@ -32,7 +32,7 @@ Press the button and a dialogue box should appear:
    ![Flashing dialogue](images/flash.png)
    
    After a few seconds, another dialogue will open, telling you about the
-   remountable file system. You can close both dialogues.
+   mountable file system. You can close both dialogues.
 
 Once your program has been *flashed* (installed in the micro:bit's memory),
 you should see 'Hello World' scroll across the LEDs on the front of
@@ -51,7 +51,7 @@ find out what went wrong.
 cannot guess what you meant to type! If you spot a mistake, correct it and fkash the program again.
 
 1. If you can't spot a mistake, ask someone else to check your program. It's often easier for them to spot a mistake
-than it is for you, because you kay be seeing what you meant to type rather than what is 
+than it is for you, because you may be seeing what you meant to type rather than what is 
 actually there!
 
 1. If that doesn't help, as me. Don't be embarrassed. Just about everyone makes some mistakes when they

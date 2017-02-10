@@ -23,7 +23,7 @@ Open a new tan in *mu* and type in this program:
     display.show(Image.HAPPY)
     
 
-You've seen the first line before. It says you want to use the mircobit module
+You've seen the first line before. It says you want to use the microbit module
 (library).
 
 The second line tells the micro:bit display to show an image. In this case, the
@@ -176,9 +176,4 @@ Try entering, saving and running this code:
     display.show(Image.ALL_CLOCKS, loop=True)
     
 Image.ALL_CLOCKS is a pre-defined list of images. The `loop=True` parameter in `show` has the same effect as enclosing
- the startement in a while loop.
-
-
-
-
-
+ the statement in a while loop.

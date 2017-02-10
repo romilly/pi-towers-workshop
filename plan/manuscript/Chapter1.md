@@ -20,17 +20,20 @@ micro:bit. You can simply click on `Cancel` when it does.
 
 ##  Using mu
 
-The mu software has been designed with young learners in mind. It has a very easy to use interface, and most of the menu items should be self-explanatory.
+The mu software has been designed with young learners in mind. It has a very easy to use interface,
+and most of the menu items should be self-explanatory.
 
 ![screen3](images/screen3.png)
 
-1. The `New` button will open a *new* file. In mu this is done in a new tab. Have a go opening a few new files, and then closing them again.
+1. The `New` button will open a *new* file. In mu this is done in a new tab.
+Have a go opening a few new files, and then closing them again.
 
 1. The `Load` button is for opening existing code that you have written.
 
 1. The `Save` button saves any work you have in the visible tab.
 
-1. The `Flash` button will push your code onto the micro:bit. You'll learn more about this later on.
+1. The `Flash` button will push your code onto the micro:bit.
+You'll learn more about this later on.
 
 1. The `Repl` button opens an **interactive shell**. This is covered in the next section.
 

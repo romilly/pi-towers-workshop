@@ -4,7 +4,7 @@
 
 If you want to explore the workbook later you will need a micro:bit and another
 computer to program it. The *mu* editor runs on the Pi, but it is also
-available for Microsoft Windows, MacOS and other verions of Linux. 
+available for Microsoft Windows, MacOS and other versions of Linux. 
 
 
 ##More stuff the micro:bit can do
@@ -31,7 +31,8 @@ the micro:bit to other chips to add even more abilities.
 You've seen a bit about how to program in Python but you can do much more
 that you have had time to cover today.
 
-There's a great free [Python Introduction](https://www.raspberrypi.org/learning/python-intro/) on the Raspberry Pi website.
+There's a great free [Python Introduction](https://www.raspberrypi.org/learning/python-intro/)
+on the Raspberry Pi website.
 
 It shows you how to program in Python on the Raspberry Pi.
 Python 3 on the Pi is the same language as MicroPython. The only difference is
@@ -48,6 +49,3 @@ I used some of their material at the start of this workbook.
 including a lot about the micro:bit, the Raspberry Pi and Robots.
  
  Have fun and keep learning!
-
-
-
