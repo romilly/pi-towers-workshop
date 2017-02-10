@@ -10,7 +10,8 @@ available for Microsoft Windows, MacOS and other verions of Linux.
 ##More stuff the micro:bit can do
 
 The micro:bit has a lot of additional hardware that we haven't covered in this
-workshop. There's an electronic compass which can tell you where North is.
+workshop. There's an accelerometer which can detect when the micro:bit is moved or shaken. 
+There's an electronic compass which can tell you where North is.
 There's a radio, which means that two more micro:bits can send signals to each
 other.
 
@@ -26,6 +27,15 @@ the micro:bit to other chips to add even more abilities.
 
 
 ##Where to find out more
+
+You've seen a bit about how to program in Python but you can do much more
+that you have had time to cover today.
+
+There's a great free [Python Introduction](https://www.raspberrypi.org/learning/python-intro/) on the Raspberry Pi website.
+
+It shows you how to program in Python on the Raspberry Pi.
+Python 3 on the Pi is the same language as MicroPython. The only difference is
+that MicroPython has its own modules for controlling the micro:bit.
 
 There are several places where you can find out more about the micro:bit.
 

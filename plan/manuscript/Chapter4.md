@@ -47,7 +47,4 @@ Here's the code:
 
 
 
-##Checking a button
-
-
 
