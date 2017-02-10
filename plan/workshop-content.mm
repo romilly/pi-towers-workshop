@@ -78,7 +78,7 @@
 </map_styles>
 </hook>
 <node TEXT="Introduction" POSITION="right" ID="ID_742155583" CREATED="1486207406805" MODIFIED="1486207415011">
-<node TEXT="What you will do" ID="ID_1888294199" CREATED="1486566160144" MODIFIED="1486571025720" LINK="resources/images/microbit/2-betterUX-large-preview-opt.jpg"><richcontent TYPE="NOTE">
+<node TEXT="What you will do" ID="ID_1888294199" CREATED="1486566160144" MODIFIED="1486731820665" LINK="manuscript/images/cover.png"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -256,27 +256,6 @@
 <node TEXT="microbit news" ID="ID_520186512" CREATED="1486720619903" MODIFIED="1486720633072"/>
 <node TEXT="RAREblog" ID="ID_1340206960" CREATED="1486720634623" MODIFIED="1486720641464"/>
 </node>
-</node>
-<node TEXT="Credits and Copyright" POSITION="left" ID="ID_251264544" CREATED="1486729850564" MODIFIED="1486730004176"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Content (c) Raspberry Pi foundation, Romilly Cocking 2016, 2017
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      This material is licensed under a Creative Commons N
-    </p>
-  </body>
-</html>
-
-</richcontent>
 </node>
 </node>
 </map>
