@@ -2,67 +2,42 @@
 
 #What's next
 
+If you want to explore the workbook later you will need a micro:bit and another
+computer to program it. The *mu* editor runs on the Pi, but it is also
+available for Microsoft Windows, MacOS and other verions of Linux. 
 
 
 ##More stuff the micro:bit can do
 
+The micro:bit has a lot of additional hardware that we haven't covered in this
+workshop. There's an electronic compass which can tell you where North is.
+There's a radio, which means that two more micro:bits can send signals to each
+other.
 
+There are Digital inputs which can be used to keep track of what's happening in
+the outside world, and Digital Outputs which you can use to control more LEDs or
+control motors.
 
-###Compass
+There are Analog Inputs which can measure voltages, and you can use them with
+sensors to measure how light or dark the room is, or whether it's hot or cold.
 
-
-
-###Radio
-
-
-
-###Talking to the Pi
-
-
-
-###Reaction Timer
-
-
-
-###Fortune Cookies
-
-
-
-####The fortune program
-
-
-
-####Fortunes on the micro:bit
-
-
-
-###Talking to Chips
-
-
-
-###Robotics
-
-
-
-####C2Pi
-
+You can send information between the micro:bit and another computer, and you can connect
+the micro:bit to other chips to add even more abilities.
 
 
 ##Where to find out more
 
+There are several places where you can find out more about the micro:bit.
+
+* The [micro:bit foundation website](http://www.microbit.org/)
+* The Raspbery Pi Foundation website has several worksheets in its
+[learning section](https://www.raspberrypi.org/learning/).
+I used some of their material at the start of this workbook.
+* [microbit playground](https://microbit-playground.co.uk/)
+* [RAREblog](http://blog.rareschool.com/) where I blog about my own experiments,
+including a lot about the micro:bit, the Raspberry Pi and Robots.
+ 
+ Have fun and keep learning!
 
 
-###micro:bit foundation
-
-
-
-###Raspberry Pi foundation
-
-
-
-###microbit news
-
-
-
-###RAREblog
 
