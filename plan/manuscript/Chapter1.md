@@ -1,4 +1,5 @@
 
+\newpage
 
 #Plugging in your micro:bit
 
@@ -14,7 +15,7 @@ pop up like the one below:
 
     ![screen2](images/screen2.png)
     
-1. his dialogue box might pop up a few times while you're playing with the
+1. This dialogue box might pop up a few times while you're playing with the
 micro:bit. You can simply click on `Cancel` when it does.
 
 ##  Using mu
