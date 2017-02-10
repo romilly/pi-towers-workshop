@@ -114,7 +114,7 @@ This example and some of those that follow were copied from the [MicroPython on-
 
 MicroPython makes it really easy to create *animations*: images displayed in sequence.
 
-To see how animations work, and to discover the full power MicroPython's `show`, type in and run this program:
+To see how animations work, and to discover the full power MicroPython's `show`, copy and run this program:
   
     from microbit import *
 
@@ -127,5 +127,58 @@ To see how animations work, and to discover the full power MicroPython's `show`,
         sleep(1000)
         display.show(Image.CLOCK3)
         sleep(1000)
+        display.show(Image.CLOCK4)
+        sleep(1000)
+        display.show(Image.CLOCK5)
+        sleep(1000)
+        display.show(Image.CLOCK6)
+        sleep(1000)
+                
+You should see a clock with the hands going round from 12 o'clock to 6 o'clock.
+
+That's a lot of typing. There are easier ways to do it.
+
+First, lets change the program to create a *list*.
+
+A Python list is a collection of values in a particular order.
+
+In the program that follows you will create a list of clock images called *clock*
+and ask Python to show the list repeatedly.
+
+Enter and save this program:
+
+    from microbit import *
+    
+    clocks = [Image.CLOCK12,
+              Image.CLOCK1,
+              Image.CLOCK2,
+              Image.CLOCK3,
+              Image.CLOCK4,
+              Image.CLOCK5,
+              Image.CLOCK6]
+    
+    while True:
+        display.show(clocks)
         
-        
+As you see, you can create a list in Python by enclosing several values in square brackets and separating the values
+with commas.
+
+Run this program. It should produce the same output as the earlier version but it's simpler and shorter.
+
+If you wanted to display all twelve clock images you could do it by creating a larger list containing all the values.
+
+There's an even simpler way. The microbit module contains a pre-built list with all twelve clock faces.
+
+Try entering, saving and running this code:
+
+    from microbit import *
+
+    display.show(Image.ALL_CLOCKS, loop=True)
+    
+Image.ALL_CLOCKS is a pre-defined list of images. The `loop=True` parameter in `show` has the same effect as enclosing
+ the startement in a while loop.
+
+
+
+
+

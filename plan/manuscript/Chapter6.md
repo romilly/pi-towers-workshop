@@ -34,7 +34,7 @@ There are several places where you can find out more about the micro:bit.
 [learning section](https://www.raspberrypi.org/learning/).
 I used some of their material at the start of this workbook.
 * [microbit playground](https://microbit-playground.co.uk/)
-* [RAREblog](http://blog.rareschool.com/) where I blog about my own experiments,
+* [RAREblog](http://blog.rareschool.com/) The place where I blog about my own experiments,
 including a lot about the micro:bit, the Raspberry Pi and Robots.
  
  Have fun and keep learning!
