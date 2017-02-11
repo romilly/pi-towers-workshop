@@ -27,8 +27,9 @@ the experiments today. You will be able to keep this workbook and use it once th
 
 ##Let's get started with *mu*!
 
-
-1. On the Raspberry Pi, open *Mu* from the main menu under `Programming`.
+1. If you haven't installed the *mu* editor on your Raspberry Pi, open a terminal window, type
+`sudo apt-get install mu` and wait for the installation to finish.
+1. On the Pi, open *Mu* from the main menu under `Programming`.
 1. A new window should open up that looks like this:
 
 
