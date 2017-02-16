@@ -1,7 +1,0 @@
-Chapter0.md
-Chapter1.md
-Chapter2.md
-Chapter3.md
-Chapter4.md
-Chapter6.md
-LICENSE.md
