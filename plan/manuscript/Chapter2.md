@@ -1,5 +1,3 @@
-\newpage
-
 #Hello World!
 
 ##Typing in a program

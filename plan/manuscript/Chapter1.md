@@ -1,6 +1,3 @@
-
-\newpage
-
 #Plugging in your micro:bit
 
 The micro:bit has a micro USB port that you can use to connect it to your Raspberry Pi.

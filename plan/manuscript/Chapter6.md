@@ -41,13 +41,16 @@ that MicroPython has its own modules for controlling the micro:bit.
 There are several places where you can find out more about the micro:bit.
 
 * The [micro:bit foundation website](http://www.microbit.org/)
-* The Raspbery Pi Foundation website has several worksheets in its
+* The Raspberry Pi Foundation website has several worksheets in its
 [learning section](https://www.raspberrypi.org/learning/).
 I used some of their material at the start of this workbook.
 * [microbit playground](https://microbit-playground.co.uk/)
 * [RAREblog](http://blog.rareschool.com/) The place where I blog about my own experiments,
 including a lot about the micro:bit, the Raspberry Pi and Robots.
+* [follow me on twitter](https://twitter.com/rareblog) for tweets about robots, electronics, Arduino and micro:bit
  
- Have fun and keep learning!
+You can contact me by email: I'm romilly.cocking@gmail.com
+
+Have fun and keep learning!
  
  
