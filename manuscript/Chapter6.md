@@ -25,10 +25,21 @@ sensors to measure how light or dark the room is, or whether it's hot or cold.
 You can send information between the micro:bit and another computer, and you can connect
 the micro:bit to other chips to add even more abilities.
 
+## Help, please
+
+I'd appreciate your help.
+
+I published this free book [on LeanPub](https://leanpub.com/microbitmicropython) in order to make it easy for you to get
+started with MicroPython on the micro:bit. If you get the (free) version on Leanpub, you will also
+get future updates free.
+
+To help me improve it, could you take five minutes to fill out a
+[short online survey](https://goo.gl/forms/eeXtmhuQZISZ8VgZ2)?
+
 
 ##Where to find out more
 
-You've seen a bit about how to program in Python but you can do much more
+You've seen a bit about how to program in Python but you can do much more with the micro:bit
 that you have had time to cover today.
 
 There's a great free [Python Introduction](https://www.raspberrypi.org/learning/python-intro/)
