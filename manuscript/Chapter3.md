@@ -17,7 +17,7 @@ but you can try them out later.
 
 ##Displaying a happy face
 
-Open a new tan in *mu* and type in this program:
+Open a new tab in *mu* and type in this program:
 
     from microbit import *
     display.show(Image.HAPPY)
@@ -43,8 +43,6 @@ In the `happy.py` window, add two lines to the end of the program:
 
     sleep(1000)
     display.show(Image.SAD)
-    
-\newpage
 
 Your editor window should look like this:
 
@@ -61,7 +59,7 @@ stay on the display until you restart the micro:bit.
 If you make a small change to your program you can tell the micro:bit to keep changing
 from a happy face to a sad face and back again.
 
-To do that you will need to add a `While loop`. That s one of the ways you cans get a
+To do that you will need to add a `While loop`. That is one of the ways you can get a
 Python program to repeat code over and over again.
 
 Edit your program so that it reads like this:
@@ -114,7 +112,8 @@ This example and some of those that follow were copied from the [MicroPython on-
 
 MicroPython makes it really easy to create *animations*: images displayed in sequence.
 
-To see how animations work, and to discover the full power MicroPython's `show`, copy and run this program:
+To see how animations work, and to discover the full power MicroPython's `show`,
+copy and run this program:
   
     from microbit import *
 
@@ -160,8 +159,8 @@ Enter and save this program:
     while True:
         display.show(clocks)
         
-As you see, you can create a list in Python by enclosing several values in square brackets and separating the values
-with commas.
+As you see, you can create a list in Python by enclosing several values in square brackets and
+separating the values with commas.
 
 Run this program. It should produce the same output as the earlier version but it's simpler and shorter.
 

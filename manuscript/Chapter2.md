@@ -40,17 +40,22 @@ the micro:bit.
 ###Troubleshooting
 
 The display will finish quite quickly. If you missed it, just press the button that is
-underneath the microbit next to the USB cable. This will restart the micro:bit and your program will re-run.
+underneath the microbit next to the USB cable. This will restart the micro:bit and your program
+will re-run.
 
 If you don't see the display that you expected, here are some steps to help you
 find out what went wrong.
 
 1. Carefully check what you typed. It's easy to make a mistake, and the computer
-cannot guess what you meant to type! If you spot a mistake, correct it and fkash the program again.
+cannot guess what you meant to type! If you spot a mistake, correct it and
+flash the program again.
 
 1. If you can't spot a mistake, ask someone else to check your program. It's often easier for them to spot a mistake
 than it is for you, because you may be seeing what you meant to type rather than what is 
 actually there!
 
-1. If that doesn't help, as me. Don't be embarrassed. Just about everyone makes some mistakes when they
+1. If that doesn't help you can join this workbook's [private FaceBook group](https://www.facebook.com/groups/microbit60mins/).
+
+You'll have to ask to join; then you can ask your question.
+Don't be embarrassed. Just about everyone makes some mistakes when they
 program.

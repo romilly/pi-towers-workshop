@@ -59,7 +59,9 @@ I used some of their material at the start of this workbook.
 * [RAREblog](http://blog.rareschool.com/) The place where I blog about my own experiments,
 including a lot about the micro:bit, the Raspberry Pi and Robots.
 * [follow me on twitter](https://twitter.com/rareblog) for tweets about robots, electronics, Arduino and micro:bit
- 
+* You can join this workbook's [private FaceBook group](https://www.facebook.com/groups/microbit60mins/). You'll have to
+ask to join. (That helps us keep spammers at bay!)
+
 You can contact me by email: I'm romilly.cocking@gmail.com
 
 Have fun and keep learning!

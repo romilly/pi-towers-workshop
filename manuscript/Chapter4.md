@@ -1,4 +1,4 @@
-\newpage
+
 
 #Buttons
 
@@ -7,7 +7,7 @@ information using the display.
 
 Sometimes you want to input information as well.
  
-One way to do that is to use the mirco:bit's buttons.
+One way to do that is to use the micro:bit's buttons.
 
 The micro:bit has two buttons labelled *a* and *b*.
 

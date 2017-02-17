@@ -21,6 +21,9 @@ At the end of this workbook you will find some links to help you explore once th
 
 ## What you will need
 
+You'll need a BBC micor:bit and its USB connector. You don't need a battery, as the mirocbit will be
+powered via USB.
+
 ### If you have a Raspberry Pi
 
 This workbook assumes that you have a working Raspberry Pi with screen, keyboard and mouse, that you will connect via USB
@@ -28,20 +31,22 @@ to a BBC micro:bit.
 
 If you have a Raspberry Pi you will need to install the *mu* editor before you can start editing.
 
-Open a terminal window 
+Open a terminal window and run the following commands:
+
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt-get install mu
 
 ### If you don't have a Raspberry Pi
 
 If you don't have a Raspberry Pi, don't despair. You can use a desktop or laptop computer with the micro:bit, and you
 can use the *mu* editor with Microsoft Windows, Mac OS or Linux. You'll find instructions for
-downloading and installing *mu* [here]()
-
-
+downloading and installing *mu* [here](https://codewith.mu/#download)
 
 ##You don't have to finish everything in 60 minutes
 
-I hope you'll have plenty of fun things to do over the next 60 minutes, but don't feel you have to do all of
-the experiments today.
+You'll have plenty of fun things to do over the next 60 minutes, but don't feel you have to do all of
+the experiments right now.
 
 ##Let's get started with *mu*!
 
