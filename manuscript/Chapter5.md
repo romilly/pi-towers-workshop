@@ -34,12 +34,35 @@ When you run Python on a Laptop or desktop computer, a print statement in your p
 display output on the *console* - the window in which you started the Python program.
 
 The micro:bit has no console, but you can still see the output of print statements.
-One way to do that is to use the REPL button on the mu program window.
+One way to do that is to use the Repl button on the mu program window.
+
+![mu window](images/screen3.png)
+
+##*Repl* stands for **Read, Evaluate, Print Loop**
+
+![REPL](images/repl.png)
+
+Arrow Icon made by [Catalin Fertu](http://www.flaticon.com/authors/catalin-fertu)
+
+
+When you open the *Repl* window in mu, you can
+1. Execute Python code and see the result
+1. See the *print*ed output from a running program.
+
+That's enough background.
+
+##Time to get coding!
+
+Open a new *mu* window and enter the following program:
 
 
 
 
 
+
+## Time for some fun
+
+Open a new *mu* window and enter the following program:
 
 
     # Magic 8 ball by Nicholas Tollervey. February 2016.
@@ -81,3 +104,19 @@ One way to do that is to use the REPL button on the mu program window.
             display.scroll(random.choice(answers))
         sleep(10)
 
+The first thing to notice is that the program has lines beginning with a hash character *#*.
+
+(It's proper name is an *octothorpe*, but in the UK everyone calls it a *hash*.)
+
+In Python, everything on a line after a hash character is ignored (by Python),
+so you can type a helpful explanation for anyone who reads your code.
+
+Comments are a great way to explain why you wrote a program the way you did,
+and they can aso be used to tell the reader who it was that wrote it.
+
+After the introductory comment, the program
+
+1. imports the micorbit module
+1. creates a list of answers
+ 
+ 
