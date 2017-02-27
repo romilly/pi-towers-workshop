@@ -54,6 +54,8 @@ flash the program again.
 than it is for you, because you may be seeing what you meant to type rather than what is 
 actually there!
 
+1. If you're using this workbook in a workshop, ask the workshop leader.
+
 1. If that doesn't help you can join this workbook's [private FaceBook group](https://www.facebook.com/groups/microbit60mins/).
 
 You'll have to ask to join; then you can ask your question.
