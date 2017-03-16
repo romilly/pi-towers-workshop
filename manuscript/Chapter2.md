@@ -3,7 +3,7 @@
 ##Typing in a program
 
 
-In the **mu **editor, click the + (new) icon. You should see a new tab open in the editor. 
+In the **mu** editor, click the + (new) icon. You should see a new tab open in the editor. 
 
 That's where you will type your code. 
 
