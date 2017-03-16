@@ -18,7 +18,7 @@ The chip on the micro:bit can measure acceleration in three *axes* (directions),
 * The y axis corresponds to acceleration forward or backwards
 * The z axis corresponds to acceleration up or down
 
-![Micro:bit axes]()
+![Micro:bit X axis](images/accel-x-axis.png)
 
 ## print() and the REPL
 
@@ -74,7 +74,7 @@ To see it, you need to do two things:
 
 1. Click on the `repl` button on mu's interface. This will interrupt your program and open mu's
 repl window.
-1. Restart your program using the micor:bit's `restart` button.
+1. Restart your program using the micro:bit's `restart` button.
 
 Now you should see a stream of numbers scrolling in the mu repl window.
 

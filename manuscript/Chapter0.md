@@ -21,7 +21,7 @@ At the end of this workbook you will find some links to help you explore once th
 
 ## What you will need
 
-You'll need a BBC micor:bit and its USB connector. You don't need a battery, as the mirocbit will be
+You'll need a BBC micro:bit and its USB connector. You don't need a battery, as the micro:bit will be
 powered via USB.
 
 ### If you have a Raspberry Pi
@@ -46,7 +46,8 @@ downloading and installing *mu* [here](https://codewith.mu/#download)
 ##You don't have to finish everything in 60 minutes
 
 You'll have plenty of fun things to do over the next 60 minutes, but don't feel you have to do all of
-the experiments right now.
+the experiments right now. The workbook covers most of the features of the micro:bit, and you'll find plenty to do
+after the workshop is over.
 
 ##Let's get started with *mu*!
 
