@@ -10,7 +10,7 @@ You're about to experiment with the accelerometer - a chip which measures *accel
 We say that something *accelerates* when it changes speed or direction.  Cars, bikes, aeroplanes
 accelerate; so you you, when you start or stop walking, or break into a run.
 
-If the microbit is moved or shaken, it accelerates and the acceleration is measured by its accelerometer.
+If the micro:bit is moved or shaken, it accelerates and the acceleration is measured by its accelerometer.
 
 The chip on the micro:bit can measure acceleration in three *axes* (directions), called x, y and z.
 
