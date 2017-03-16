@@ -7,7 +7,7 @@ has several other useful [peripherals]() on  board.
 
 You're about to experiment with the accelerometer - a chip which measures *acceleration*.
 
-We say that something *accelerates* when it changes speed or direction.  Cars, bikes, aeroplances
+We say that something *accelerates* when it changes speed or direction.  Cars, bikes, aeroplanes
 accelerate; so you you, when you start or stop walking, or break into a run.
 
 If the microbit is moved or shaken, it accelerates and the acceleration is measured by its accelerometer.
@@ -55,9 +55,28 @@ That's enough background.
 
 Open a new *mu* window and enter the following program:
 
+    from microbit import *
+    
+    while True:
+        print(accelerometer.get_x(), accelerometer.get_y(), accelerometer.get_z())
+        sleep(100)
 
 
+Now use the `flash` button to install it on the microbit.
 
+When the micro:bit has finished flashing, your program will start running.
+
+What can you see?  *Nothing!*
+
+The program is printing output, but you can't see it yet.
+
+To see it, you need to do two things:
+
+1. Click on the `repl` button on mu's interface. This will interrupt your program and open mu's
+repl window.
+1. Restart your program using the micor:bit's `restart` button.
+
+Now you should see a stream of numbers scrolling in the mu repl window.
 
 
 ## Time for some fun
