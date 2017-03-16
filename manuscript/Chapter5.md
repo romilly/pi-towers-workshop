@@ -90,8 +90,9 @@ Open a new *mu* window and enter the following program:
     #
     # This program has been placed into the public domain.
     from microbit import *
-    import random
+    import random # we'll need a random choice to pick a reply
     
+    # create a list of possible answers
     answers = [
         "It is certain",
         "It is decidedly so",
@@ -115,6 +116,10 @@ Open a new *mu* window and enter the following program:
         "Very doubtful",
     ]
     
+    # Here's the main loop. It will display an 8 and test if the micro:bit was shaken.
+    # If it was, it will pick a reply at random and display it.
+    # Finally it will go to sleep for 1/100th of a second and then go around the loop again.
+    
     while True:
         display.show('8')
         if accelerometer.was_gesture('shake'):
@@ -125,7 +130,7 @@ Open a new *mu* window and enter the following program:
 
 The first thing to notice is that the program has lines beginning with a hash character *#*.
 
-(It's proper name is an *octothorpe*, but in the UK everyone calls it a *hash*.)
+(Its proper name is an *octothorpe*, but in the UK everyone calls it a *hash*.)
 
 In Python, everything on a line after a hash character is ignored (by Python),
 so you can type a helpful explanation for anyone who reads your code.
@@ -135,7 +140,10 @@ and they can aso be used to tell the reader who it was that wrote it.
 
 After the introductory comment, the program
 
-1. imports the micorbit module
+1. imports the `microbit` module
 1. creates a list of answers
+1. when shaken, picks a random answer and displays it
+1. sleeps for 1/100th of a second (10 milli-seconds)
+1. loops back to step 3 for ever.
  
  
