@@ -6,12 +6,15 @@ and the micro:bit foundation.*
 
 *All trademarks are the properties of their respective owners.*
 
-The workshop is under development for delivery at the Raspberry Jam to be held at Raspberry Pi Towers in
+The workshop based on this workbook was first delivered at the Raspberry Jam at Raspberry Pi Towers in
 Cambridge, England on 11 Feb 2017.
 
-Once the workshop has run, I will publish this worksheet as a free pdf under a CC/NC/SA license.
+I published this free book [on LeanPub](https://leanpub.com/microbitmicropython) in order to make it easy for you to get
+started with MicroPython on the micro:bit. If you get the (free) version on Leanpub, you will also
+get future updates free.
 
-I plan to publish a longer workbook as a free eBook on Leanpub under a similar license.
+To help me improve it, could you take five minutes to fill out a
+[short online survey](https://goo.gl/forms/eeXtmhuQZISZ8VgZ2)?
 
 ## Publication process
 
