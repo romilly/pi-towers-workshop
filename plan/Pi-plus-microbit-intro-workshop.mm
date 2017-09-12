@@ -1,6 +1,6 @@
 <map version="freeplane 1.5.9">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node FOLDED="false" ID="Freemind_Link_1331878192" CREATED="1266488194781" MODIFIED="1486207365775"><richcontent TYPE="NODE">
+<node FOLDED="false" ID="Freemind_Link_1331878192" CREATED="1266488194781" MODIFIED="1490003179963" LINK="../../microbit/plan/microbit.mm"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -20,7 +20,7 @@
 </html>
 </richcontent>
 <hook NAME="MapStyle">
-    <properties show_note_icons="true" fit_to_viewport="false;"/>
+    <properties fit_to_viewport="false;" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -207,41 +207,28 @@
 <node TEXT="accelerometer" ID="ID_994934874" CREATED="1486120472513" MODIFIED="1486120481766"/>
 </node>
 </node>
-<node TEXT="Develop" FOLDED="true" ID="ID_1583658497" CREATED="1463654419456" MODIFIED="1463654428341">
+<node TEXT="Develop" ID="ID_1583658497" CREATED="1463654419456" MODIFIED="1463654428341">
 <node TEXT="Visuals" ID="ID_231033792" CREATED="1463654403097" MODIFIED="1463654407950"/>
 <node TEXT="Script" ID="ID_1096455987" CREATED="1463654408505" MODIFIED="1463654412494"/>
 <node TEXT="email landing page" ID="ID_1525206937" CREATED="1486030760416" MODIFIED="1486030770053"/>
 </node>
-<node TEXT="Deliver" FOLDED="true" ID="ID_855143644" CREATED="1463654485726" MODIFIED="1463654489355">
+<node TEXT="Deliver" ID="ID_855143644" CREATED="1463654485726" MODIFIED="1463654489355">
 <node TEXT="Rehearse" ID="ID_179822292" CREATED="1463654491637" MODIFIED="1463654495074"/>
 <node TEXT="Revise" ID="ID_1015439316" CREATED="1463654496405" MODIFIED="1463654552528"/>
 <node TEXT="Present" ID="ID_1453452925" CREATED="1463654553043" MODIFIED="1463654556953"/>
 <node TEXT="Review" ID="ID_996785710" CREATED="1463654557444" MODIFIED="1463654560432"/>
 </node>
 </node>
-<node TEXT="Tasks" FOLDED="true" POSITION="right" ID="Freemind_Link_857865306" CREATED="1266488223477" MODIFIED="1266488636684" COLOR="#de5613">
-<node TEXT="review" FOLDED="true" ID="ID_1576392858" CREATED="1486385289014" MODIFIED="1486385294227">
-<node TEXT="@ntoll&apos;s worksheet" ID="ID_115466546" CREATED="1486385295254" MODIFIED="1486385313148"/>
-<node TEXT="@Raspberry_Pi worksheet" ID="ID_1386077525" CREATED="1486385313686" MODIFIED="1486385352451"/>
+<node TEXT="Tasks" POSITION="right" ID="Freemind_Link_857865306" CREATED="1266488223477" MODIFIED="1266488636684" COLOR="#de5613">
+<node TEXT="Add accelerometer" ID="ID_671402370" CREATED="1489671493920" MODIFIED="1489672513417">
+<icon BUILTIN="button_ok"/>
 </node>
-<node TEXT="write end" ID="ID_1967591136" CREATED="1486385358422" MODIFIED="1486385370074"/>
-<node TEXT="write start" ID="ID_1327619432" CREATED="1486385370935" MODIFIED="1486385393194"/>
-<node TEXT="decide" ID="ID_1825370252" CREATED="1486385397038" MODIFIED="1486385430698"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      visuals as well as worksheet
-    </p>
-  </body>
-</html>
-</richcontent>
+<node TEXT="Finish migrating workbook" ID="ID_1409090552" CREATED="1489671516080" MODIFIED="1489671544604">
+<node TEXT="add toc" ID="ID_936462326" CREATED="1489672516512" MODIFIED="1489672521066"/>
 </node>
+<node TEXT="Add sue&apos;s material" ID="ID_1743290454" CREATED="1489671524248" MODIFIED="1489671616809"/>
 </node>
-<node TEXT="Review" FOLDED="true" POSITION="left" ID="Freemind_Link_1153466861" CREATED="1266488259116" MODIFIED="1266488895851" COLOR="#fb1802">
+<node TEXT="Review" POSITION="left" ID="Freemind_Link_1153466861" CREATED="1266488259116" MODIFIED="1266488895851" COLOR="#fb1802">
 <icon BUILTIN="xmag"/>
 <node TEXT="WW" ID="Freemind_Link_1466796877" CREATED="1266488965666" MODIFIED="1296303686570" COLOR="#ffcc00" BACKGROUND_COLOR="#006666">
 <icon BUILTIN="button_ok"/>
@@ -278,6 +265,30 @@
 <icon BUILTIN="pencil"/>
 <node TEXT="content" ID="ID_1536354141" CREATED="1486207390890" MODIFIED="1486455385707" LINK="workshop-content.mm">
 <edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+<node TEXT="@Raspberry_Pi worksheet" ID="ID_1386077525" CREATED="1486385313686" MODIFIED="1489658309627">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="archive" ID="ID_59744254" CREATED="1489671451675" MODIFIED="1489671460920">
+<node TEXT="write start" ID="ID_1327619432" CREATED="1486385370935" MODIFIED="1486385393194"/>
+<node TEXT="write end" ID="ID_1967591136" CREATED="1486385358422" MODIFIED="1486385370074"/>
+<node TEXT="decide" ID="ID_1825370252" CREATED="1486385397038" MODIFIED="1489671474138"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      visuals as well as worksheet
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="review" ID="ID_1576392858" CREATED="1486385289014" MODIFIED="1486385294227">
+<node TEXT="@ntoll&apos;s worksheet" ID="ID_115466546" CREATED="1486385295254" MODIFIED="1486385313148"/>
+</node>
 </node>
 </node>
 <node TEXT="Resources" POSITION="left" ID="Freemind_Link_1594441695" CREATED="1273319832507" MODIFIED="1296303609303" COLOR="#33ff33">

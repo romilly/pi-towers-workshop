@@ -1,0 +1,375 @@
+<h1 id="introduction">Introduction</h1>
+<h2 id="what-you-will-do">What you will do</h2>
+<div class="figure">
+<img src="images/cover.png" />
+
+</div>
+<p>In this 60 minute workshop you will use the <strong>mu</strong> editor on a Raspberry Pi to write MicroPython programs and run them on the micro:bit.</p>
+<p>MicroPython is a small but very fast version of Python 3 that has been specially designed to work on microcontrollers such as those found on the micro:bit.</p>
+<p>The experiments will show you some of the things the micro:bit can do. You can use them as a base to build your own projects.</p>
+<p>At the end of this workbook you will find some links to help you explore once the workshop is over.</p>
+<h2 id="what-you-will-need">What you will need</h2>
+<p>You'll need a BBC micro:bit and its USB connector. You don't need a battery, as the micro:bit will be powered via USB.</p>
+<h3 id="if-you-have-a-raspberry-pi">If you have a Raspberry Pi</h3>
+<p>This workbook assumes that you have a working Raspberry Pi with screen, keyboard and mouse, that you will connect via USB to a BBC micro:bit.</p>
+<p>If you have a Raspberry Pi you will need to install the <em>mu</em> editor before you can start editing.</p>
+<p>Open a terminal window and run the following commands:</p>
+<pre><code>sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install mu</code></pre>
+<h3 id="if-you-dont-have-a-raspberry-pi">If you don't have a Raspberry Pi</h3>
+<p>If you don't have a Raspberry Pi, don't despair. You can use a desktop or laptop computer with the micro:bit, and you can use the <em>mu</em> editor with Microsoft Windows, Mac OS or Linux. You'll find instructions for downloading and installing <em>mu</em> <a href="https://codewith.mu/#download">here</a></p>
+<h2 id="you-dont-have-to-finish-everything-in-60-minutes">You don't have to finish everything in 60 minutes</h2>
+<p>You'll have plenty of fun things to do over the next 60 minutes, but don't feel you have to do all of the experiments right now. The workbook covers most of the features of the micro:bit, and you'll find plenty to do after the workshop is over.</p>
+<h2 id="lets-get-started-with-mu">Let's get started with <em>mu</em>!</h2>
+<ol style="list-style-type: decimal">
+<li>If you haven't installed the <em>mu</em> editor on your Raspberry Pi, open a terminal window, type <code>sudo apt-get install mu</code> and wait for the installation to finish.</li>
+<li>On the Pi, open <em>Mu</em> from the main menu under <code>Programming</code>.</li>
+<li>A new window should open up that looks like this:</li>
+</ol>
+<div class="figure">
+<img src="images/screen1.png" alt="mu screenshot" />
+<p class="caption">mu screenshot</p>
+</div>
+<h1 id="plugging-in-your-microbit">Plugging in your micro:bit</h1>
+<p>The micro:bit has a micro USB port that you can use to connect it to your Raspberry Pi. This will provide a power and data connection.</p>
+<ol style="list-style-type: decimal">
+<li><p>Connect your Raspberry Pi to the micro:bit using a USB A-to-micro-B cable, as shown below:</p>
+<div class="figure">
+<img src="images/usb.png" alt="usb setup" />
+<p class="caption">usb setup</p>
+</div></li>
+<li><p>You'll know that the micro:bit has connected to your Raspberry Pi, because a dialogue box should pop up like the one below:</p>
+<div class="figure">
+<img src="images/screen2.png" alt="screen2" />
+<p class="caption">screen2</p>
+</div></li>
+<li><p>This dialogue box might pop up a few times while you're playing with the micro:bit. You can simply click on <code>Cancel</code> when it does.</p></li>
+</ol>
+<h2 id="using-mu">Using mu</h2>
+<p>The mu software has been designed with young learners in mind. It has a very easy to use interface, and most of the menu items should be self-explanatory.</p>
+<div class="figure">
+<img src="images/screen3.png" alt="screen3" />
+<p class="caption">screen3</p>
+</div>
+<ol style="list-style-type: decimal">
+<li><p>The <code>New</code> button will open a <em>new</em> file. In mu this is done in a new tab. Have a go opening a few new files, and then closing them again.</p></li>
+<li><p>The <code>Load</code> button is for opening existing code that you have written.</p></li>
+<li><p>The <code>Save</code> button saves any work you have in the visible tab.</p></li>
+<li><p>The <code>Flash</code> button will push your code onto the micro:bit. You'll learn more about this later on.</p></li>
+<li><p>The <code>Repl</code> button opens an <strong>interactive shell</strong>. This is covered in the next section.</p></li>
+<li><p>The <code>Zoom</code> buttons will alter the size of the text in the window.</p></li>
+<li><p>The <code>Theme</code> button switches between <strong>light</strong> and <strong>dark</strong> themes. You can choose your preference.</p></li>
+<li><p>The <code>Help</code> button will open the Epiphany web browser and take you to the help pages.</p></li>
+<li><p>The <code>Quit</code> button will close mu.</p></li>
+</ol>
+<h1 id="hello-world">Hello World!</h1>
+<h2 id="typing-in-a-program">Typing in a program</h2>
+<p>In the <strong>mu</strong> editor, click the + (new) icon. You should see a new tab open in the editor.</p>
+<p>That's where you will type your code.</p>
+<p>The first program you'll run is the micro:bit version of <em>Hello World</em>.</p>
+<p>Here's the short program:</p>
+<div class="figure">
+<img src="images/hw.png" alt="Hello World program" />
+<p class="caption">Hello World program</p>
+</div>
+<p>Here's what each line means:</p>
+<ol style="list-style-type: decimal">
+<li><code>from microbit import *</code> tells MicroPython that you want to use the microbit module. (In Python, a module is some code that is already written, ready for you to use if you want to.) </li>
+<li><code>display.scroll('Hello World')</code> will scroll the string 'Hello World!' across the LEDs on the micro:bit.</li>
+</ol>
+<h3 id="save-it-flash-it-watch-it-run">Save it, Flash it, Watch it run!</h3>
+<ol style="list-style-type: decimal">
+<li><p>Now you can save your file. Click on <em>mu</em>'s <code>Save</code> button. Call the file <code>hw.py</code></p></li>
+<li><p>Next, you need to use the mysterious <code>Flash</code> button. Press the button and a dialogue box should appear:</p></li>
+</ol>
+<div class="figure">
+<img src="images/flash.png" alt="Flashing dialogue" />
+<p class="caption">Flashing dialogue</p>
+</div>
+<p>After a few seconds, another dialogue will open, telling you about the mountable file system. You can close both dialogues.</p>
+<p>Once your program has been <em>flashed</em> (installed in the micro:bit's memory), you should see 'Hello World' scroll across the LEDs on the front of the micro:bit.</p>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<p>The display will finish quite quickly. If you missed it, just press the button that is underneath the microbit next to the USB cable. This will restart the micro:bit and your program will re-run.</p>
+<p>If you don't see the display that you expected, here are some steps to help you find out what went wrong.</p>
+<ol style="list-style-type: decimal">
+<li><p>Carefully check what you typed. It's easy to make a mistake, and the computer cannot guess what you meant to type! If you spot a mistake, correct it and flash the program again.</p></li>
+<li><p>If you can't spot a mistake, ask someone else to check your program. It's often easier for them to spot a mistake than it is for you, because you may be seeing what you meant to type rather than what is actually there!</p></li>
+<li><p>If you're using this workbook in a workshop, ask the workshop leader.</p></li>
+<li><p>If that doesn't help you can join this workbook's <a href="https://www.facebook.com/groups/microbit60mins/">private FaceBook group</a>.</p></li>
+</ol>
+<p>You'll have to ask to join; then you can ask your question. Don't be embarrassed. Just about everyone makes some mistakes when they program.</p>
+<h1 id="images">Images</h1>
+<p>The micro:bit only has 25 LEDs but that's enough for it to display recognisable images.</p>
+<p>In this experiment you will write code to</p>
+<ol style="list-style-type: decimal">
+<li>display images on the LEDs.</li>
+<li>change the display while your program is running,</li>
+<li>display an animation and</li>
+<li>create your own images</li>
+</ol>
+<p>You may not have time to do all these activities today but you can try them out later.</p>
+<h2 id="displaying-a-happy-face">Displaying a happy face</h2>
+<p>Open a new tab in <em>mu</em> and type in this program:</p>
+<pre><code>from microbit import *
+display.show(Image.HAPPY)</code></pre>
+<p>You've seen the first line before. It says you want to use the microbit module (library).</p>
+<p>The second line tells the micro:bit display to show an image. In this case, the image is pre-defined in the microbit module, and you can refer to it as <code>Image.HAPPY</code></p>
+<p>Save your program as <code>happy.py</code> and click <em>mu</em>'s <code>Flash</code> button. Two dialogs will appear again. Close the dialogs as before. When the flashing stops you should see a happy face displayed on the micro:bit.</p>
+<h2 id="changing-the-display-to-a-sad-face">Changing the display to a sad face</h2>
+<p>The next program is a little longer, but it starts the same as the previous one.</p>
+<p>In the <code>happy.py</code> window, add two lines to the end of the program:</p>
+<pre><code>sleep(1000)
+display.show(Image.SAD)</code></pre>
+<p>Your editor window should look like this:</p>
+<div class="figure">
+<img src="images/happy2.png" alt="Happy then sad" />
+<p class="caption">Happy then sad</p>
+</div>
+<p>Use <em>mu</em>'s <code>Flash</code> button to install your program.</p>
+<p>When the program runs you should see a happy face appear for a second. Then it will be replaced by a sad face which will stay on the display until you restart the micro:bit.</p>
+<h2 id="looping---repeating-code">Looping - repeating code</h2>
+<p>If you make a small change to your program you can tell the micro:bit to keep changing from a happy face to a sad face and back again.</p>
+<p>To do that you will need to add a <code>While loop</code>. That is one of the ways you can get a Python program to repeat code over and over again.</p>
+<p>Edit your program so that it reads like this:</p>
+<pre><code>from microbit import *
+
+while True:
+    display.show(Image.HAPPY)
+    sleep(1000)
+    display.show(Image.SAD)
+    sleep(1000)</code></pre>
+<p>Make sure that:</p>
+<ol style="list-style-type: decimal">
+<li>The <code>w</code> in <code>while</code> is a lower case letter</li>
+<li>The <code>T</code> in <code>True</code> is an upper case letter</li>
+<li>The four lines after <code>while True:</code> start with four spaces</li>
+</ol>
+<p><code>Save</code>and <code>Flash</code> your code. You should see a face which changes from happy to sad and back again. Moody or what?</p>
+<h2 id="making-your-own-images">Making your own images</h2>
+<p>MicroPython comes with a great set of pre-defined images but you can easily create your own.</p>
+<p>Try creating and running this program:</p>
+<pre><code>from microbit import *
+
+boat = Image(&quot;05050:&quot;
+         &quot;05050:&quot;
+         &quot;05050:&quot;
+         &quot;99999:&quot;
+         &quot;09990&quot;)
+
+display.show(boat)</code></pre>
+<p>Each number specifies a brightness. There are five lines of five numbers so it’s possible to specify the individual brightness for each of the five pixels on each of the five lines on the physical display.</p>
+<p>That’s how to create a new image.</p>
+<p>This example and some of those that follow were copied from the <a href="https://microbit-micropython.readthedocs.io/en/latest/tutorials/images.html#diy-images">MicroPython on-line documentation</a></p>
+<h2 id="animation---images-that-change">Animation - images that change</h2>
+<p>MicroPython makes it really easy to create <em>animations</em>: images displayed in sequence.</p>
+<p>To see how animations work, and to discover the full power MicroPython's <code>show</code>, copy and run this program:</p>
+<pre><code>from microbit import *
+
+while True:
+    display.show(Image.CLOCK12)
+    sleep(1000)
+    display.show(Image.CLOCK1)
+    sleep(1000)
+    display.show(Image.CLOCK2)
+    sleep(1000)
+    display.show(Image.CLOCK3)
+    sleep(1000)
+    display.show(Image.CLOCK4)
+    sleep(1000)
+    display.show(Image.CLOCK5)
+    sleep(1000)
+    display.show(Image.CLOCK6)
+    sleep(1000)
+            </code></pre>
+<p>You should see a clock with the hands going round from 12 o'clock to 6 o'clock.</p>
+<p>That's a lot of typing. There are easier ways to do it.</p>
+<p>First, lets change the program to create a <em>list</em>.</p>
+<p>A Python list is a collection of values in a particular order.</p>
+<p>In the program that follows you will create a list of clock images called <em>clock</em> and ask Python to show the list repeatedly.</p>
+<p>Enter and save this program:</p>
+<pre><code>from microbit import *
+
+clocks = [Image.CLOCK12,
+          Image.CLOCK1,
+          Image.CLOCK2,
+          Image.CLOCK3,
+          Image.CLOCK4,
+          Image.CLOCK5,
+          Image.CLOCK6]
+
+while True:
+    display.show(clocks)
+    </code></pre>
+<p>As you see, you can create a list in Python by enclosing several values in square brackets and separating the values with commas.</p>
+<p>Run this program. It should produce the same output as the earlier version but it's simpler and shorter.</p>
+<p>If you wanted to display all twelve clock images you could do it by creating a larger list containing all the values.</p>
+<p>There's an even simpler way. The microbit module contains a pre-built list with all twelve clock faces.</p>
+<p>Try entering, saving and running this code:</p>
+<pre><code>from microbit import *
+
+display.show(Image.ALL_CLOCKS, loop=True)</code></pre>
+<p>Image.ALL_CLOCKS is a pre-defined list of images. The <code>loop=True</code> parameter in <code>show</code> has the same effect as enclosing the statement in a while loop.</p>
+<h1 id="buttons">Buttons</h1>
+<p>In the previous experiments you saw how to tell the micro:bit to output information using the display.</p>
+<p>Sometimes you want to input information as well.</p>
+<p>One way to do that is to use the micro:bit's buttons.</p>
+<p>The micro:bit has two buttons labelled <em>a</em> and <em>b</em>.</p>
+<p>You can easily test to see if a button has been pressed by using a Python <code>if</code> statement.</p>
+<p>In Python, you can program an <code>if</code> statement like this:</p>
+<p>if <em>something is true</em>: <em>do this</em></p>
+<p>Let's look at a specific example. The next program will display a happy face if button <em>a</em> is pressed.</p>
+<pre><code>from microbit import *
+
+while True:
+    if button_a.is_pressed():
+        display.show(Image.HAPPY)</code></pre>
+<p>Once the happy face has been displayed, it stays there whether the button is pressed or not.</p>
+<p>If you use a more powerful version of the <code>if</code> statement you can repeatedly check button <em>a</em>. If it's pressed, display a happy face. If it's not, you clear the display.</p>
+<p>Here's the code:</p>
+<pre><code>from microbit import *
+
+while True:
+    if button_a.is_pressed():
+        display.show(Image.HAPPY)
+    else:
+        display.clear()</code></pre>
+
+<h1 id="moving-and-shaking">Moving and shaking</h1>
+<p>In the experiments so far you have used the micro:bit LEDs and buttons, but this cool computer has several other useful <a href="">peripherals</a> on board.</p>
+<p>You're about to experiment with the accelerometer - a chip which measures <em>acceleration</em>.</p>
+<p>We say that something <em>accelerates</em> when it changes speed or direction. Cars, bikes, aeroplanes accelerate; so you you, when you start or stop walking, or break into a run.</p>
+<p>If the micro:bit is moved or shaken, it accelerates and the acceleration is measured by its accelerometer.</p>
+<p>The chip on the micro:bit can measure acceleration in three <em>axes</em> (directions), called x, y and z.</p>
+<ul>
+<li>The x axis corresponds to acceleration to the left or right</li>
+<li>The y axis corresponds to acceleration forward or backwards</li>
+<li>The z axis corresponds to acceleration up or down</li>
+</ul>
+<div class="figure">
+<img src="images/accel-x-axis.png" alt="Micro:bit X axis" />
+<p class="caption">Micro:bit X axis</p>
+</div>
+<h2 id="print-and-the-repl">print() and the REPL</h2>
+<p>In the first accelerometer experiment you'll run a program that prints out the micro:bit's acceleration along the x, y and z axis. That's a bit of a challenge; you can't use the display becuase it's too slow. By the time you read a displayed value, the micro:bit might have changed direction or stopped accelerating.</p>
+<p>Fortunately there is a faster way of showing the output from a Python program. it's called the <code>print</code> function.</p>
+<p>When you run Python on a Laptop or desktop computer, a print statement in your program will display output on the <em>console</em> - the window in which you started the Python program.</p>
+<p>The micro:bit has no console, but you can still see the output of print statements. One way to do that is to use the Repl button on the mu program window.</p>
+<div class="figure">
+<img src="images/screen3.png" alt="mu window" />
+<p class="caption">mu window</p>
+</div>
+<h2 id="repl-stands-for-read-evaluate-print-loop"><em>Repl</em> stands for <strong>Read, Evaluate, Print Loop</strong></h2>
+<div class="figure">
+<img src="images/repl.png" alt="REPL" />
+<p class="caption">REPL</p>
+</div>
+<p>Arrow Icon made by <a href="http://www.flaticon.com/authors/catalin-fertu">Catalin Fertu</a></p>
+<p>When you open the <em>Repl</em> window in mu, you can 1. Execute Python code and see the result 1. See the <em>print</em>ed output from a running program.</p>
+<p>That's enough background.</p>
+<h2 id="time-to-get-coding">Time to get coding!</h2>
+<p>Open a new <em>mu</em> window and enter the following program:</p>
+<pre><code>from microbit import *
+
+while True:
+    print(accelerometer.get_x(), accelerometer.get_y(), accelerometer.get_z())
+    sleep(100)</code></pre>
+<p>Now use the <code>flash</code> button to install it on the microbit.</p>
+<p>When the micro:bit has finished flashing, your program will start running.</p>
+<p>What can you see? <em>Nothing!</em></p>
+<p>The program is printing output, but you can't see it yet.</p>
+<p>To see it, you need to do two things:</p>
+<ol style="list-style-type: decimal">
+<li>Click on the <code>repl</code> button on mu's interface. This will interrupt your program and open mu's repl window.</li>
+<li>Restart your program using the micro:bit's <code>restart</code> button.</li>
+</ol>
+<p>Now you should see a stream of numbers scrolling in the mu repl window.</p>
+<h2 id="time-for-some-fun">Time for some fun</h2>
+<p>Open a new <em>mu</em> window and enter the following program:</p>
+<pre><code># Magic 8 ball by Nicholas Tollervey. February 2016.
+#
+# Ask a question then shake.
+#
+# This program has been placed into the public domain.
+from microbit import *
+import random # we&#39;ll need a random choice to pick a reply
+
+# create a list of possible answers
+answers = [
+    &quot;It is certain&quot;,
+    &quot;It is decidedly so&quot;,
+    &quot;Without a doubt&quot;,
+    &quot;Yes, definitely&quot;,
+    &quot;You may rely on it&quot;,
+    &quot;As I see it, yes&quot;,
+    &quot;Most likely&quot;,
+    &quot;Outlook good&quot;,
+    &quot;Yes&quot;,
+    &quot;Signs point to yes&quot;,
+    &quot;Reply hazy try again&quot;,
+    &quot;Ask again later&quot;,
+    &quot;Better not tell you now&quot;,
+    &quot;Cannot predict now&quot;,
+    &quot;Concentrate and ask again&quot;,
+    &quot;Don&#39;t count on it&quot;,
+    &quot;My reply is no&quot;,
+    &quot;My sources say no&quot;,
+    &quot;Outlook not so good&quot;,
+    &quot;Very doubtful&quot;,
+]
+
+# Here&#39;s the main loop. It will display an 8 and test if the micro:bit was shaken.
+# If it was, it will pick a reply at random and display it.
+# Finally it will go to sleep for 1/100th of a second and then go around the loop again.
+
+while True:
+    display.show(&#39;8&#39;)
+    if accelerometer.was_gesture(&#39;shake&#39;):
+        display.clear()
+        sleep(1000)
+        display.scroll(random.choice(answers))
+    sleep(10)</code></pre>
+<p>The first thing to notice is that the program has lines beginning with a hash character <em>#</em>.</p>
+<p>(Its proper name is an <em>octothorpe</em>, but in the UK everyone calls it a <em>hash</em>.)</p>
+<p>In Python, everything on a line after a hash character is ignored (by Python), so you can type a helpful explanation for anyone who reads your code.</p>
+<p>Comments are a great way to explain why you wrote a program the way you did, and they can aso be used to tell the reader who it was that wrote it.</p>
+<p>After the introductory comment, the program</p>
+<ol style="list-style-type: decimal">
+<li>imports the <code>microbit</code> module</li>
+<li>creates a list of answers</li>
+<li>when shaken, picks a random answer and displays it</li>
+<li>sleeps for 1/100th of a second (10 milli-seconds)</li>
+<li>loops back to step 3 for ever.</li>
+</ol>
+<h1 id="whats-next">What's next</h1>
+<p>If you want to explore the workbook later you will need a micro:bit and another computer to program it. The <em>mu</em> editor runs on the Pi, but it is also available for Microsoft Windows, MacOS and other versions of Linux.</p>
+<h2 id="more-stuff-the-microbit-can-do">More stuff the micro:bit can do</h2>
+<p>The micro:bit has a lot of additional hardware that we haven't covered in this workshop. There's an accelerometer which can detect when the micro:bit is moved or shaken. There's an electronic compass which can tell you where North is. There's a radio, which means that two more micro:bits can send signals to each other.</p>
+<p>There are Digital inputs which can be used to keep track of what's happening in the outside world, and Digital Outputs which you can use to control more LEDs or control motors.</p>
+<p>There are Analog Inputs which can measure voltages, and you can use them with sensors to measure how light or dark the room is, or whether it's hot or cold.</p>
+<p>You can send information between the micro:bit and another computer, and you can connect the micro:bit to other chips to add even more abilities.</p>
+<h2 id="help-please">Help, please</h2>
+<p>I'd appreciate your help.</p>
+<p>I published this free book <a href="https://leanpub.com/microbitmicropython">on LeanPub</a> in order to make it easy for you to get started with MicroPython on the micro:bit. If you get the (free) version on Leanpub, you will also get future updates free.</p>
+<p>To help me improve it, could you take five minutes to fill out a <a href="https://goo.gl/forms/eeXtmhuQZISZ8VgZ2">short online survey</a>?</p>
+<h2 id="where-to-find-out-more">Where to find out more</h2>
+<p>You've seen a bit about how to program in Python but you can do much more with the micro:bit that you have had time to cover today.</p>
+<p>There's a great free <a href="https://www.raspberrypi.org/learning/python-intro/">Python Introduction</a> on the Raspberry Pi website.</p>
+<p>It shows you how to program in Python on the Raspberry Pi. Python 3 on the Pi is the same language as MicroPython. The only difference is that MicroPython has its own modules for controlling the micro:bit.</p>
+<p>There are several places where you can find out more about the micro:bit.</p>
+<ul>
+<li>The <a href="http://www.microbit.org/">micro:bit foundation website</a></li>
+<li>The Raspberry Pi Foundation website has several worksheets in its <a href="https://www.raspberrypi.org/learning/">learning section</a>. I used some of their material at the start of this workbook.</li>
+<li><a href="https://microbit-playground.co.uk/">microbit playground</a></li>
+<li><a href="http://blog.rareschool.com/">RAREblog</a> The place where I blog about my own experiments, including a lot about the micro:bit, the Raspberry Pi and Robots.</li>
+<li><a href="https://twitter.com/rareblog">follow me on twitter</a> for tweets about robots, electronics, Arduino and micro:bit</li>
+<li>You can join this workbook's <a href="https://www.facebook.com/groups/microbit60mins/">private FaceBook group</a>. You'll have to ask to join. (That helps us keep spammers at bay!)</li>
+</ul>
+<p>You can contact me by email: I'm romilly.cocking@gmail.com</p>
+<p>Have fun and keep learning!</p>
+<h1 id="licence">Licence</h1>
+<p>Unless otherwise specified, everything in this repository is covered by the following licence:</p>
+<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License" /></a></p>
+<p><strong><em>MicroPython and micro:bit in 60 minutes</em></strong> by <a href="http://blog.rareschool.com/">Romilly Cocking</a> is licenced under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+<p>Based on works at https://github.com/raspberrypilearning/getting-started-with-microbits and https://github.com/romilly/pi-towers-workshop</p>
+<p><strong><em>Getting started with micro:bits</em></strong> by the <a href="http://www.raspberrypi.org">Raspberry Pi Foundation</a> is licenced under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>

@@ -10,8 +10,7 @@ available for Microsoft Windows, MacOS and other versions of Linux.
 ##More stuff the micro:bit can do
 
 The micro:bit has a lot of additional hardware that we haven't covered in this
-workshop. There's an accelerometer which can detect when the micro:bit is moved or shaken. 
-There's an electronic compass which can tell you where North is.
+workshop. There's an electronic compass which can tell you where North is.
 There's a radio, which means that two more micro:bits can send signals to each
 other.
 
