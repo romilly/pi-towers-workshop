@@ -227,6 +227,27 @@
 <node TEXT="add toc" ID="ID_936462326" CREATED="1489672516512" MODIFIED="1489672521066"/>
 </node>
 <node TEXT="Add sue&apos;s material" ID="ID_1743290454" CREATED="1489671524248" MODIFIED="1489671616809"/>
+<node TEXT="extras" ID="ID_1696783704" CREATED="1505312109044" MODIFIED="1505312112103">
+<node TEXT="mind map" ID="ID_962975824" CREATED="1505312113100" MODIFIED="1505312116335"/>
+<node TEXT="why MicroPython" ID="ID_285796261" CREATED="1505312116668" MODIFIED="1505312219068"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      fast feedback in current context (so sticks more, less time, less energy)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="radio" ID="ID_87602369" CREATED="1505312132796" MODIFIED="1505312164336"/>
+<node TEXT="data logging" ID="ID_183587868" CREATED="1505312164692" MODIFIED="1505312169697"/>
+<node TEXT="continuation lines?" ID="ID_532951852" CREATED="1505312984012" MODIFIED="1505313150146"/>
+</node>
 </node>
 <node TEXT="Review" POSITION="left" ID="Freemind_Link_1153466861" CREATED="1266488259116" MODIFIED="1266488895851" COLOR="#fb1802">
 <icon BUILTIN="xmag"/>

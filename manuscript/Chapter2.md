@@ -15,7 +15,7 @@ Here's the short program:
 
 Here's what each line means:
 
-1.  `from microbit import *` tells MicroPython that you want to use the microbit module.
+1.  `from microbit import *` tells MicroPython that you want to use the `microbit` module.
    (In Python, a module is some code that is already written, ready for you to use if you want to.) 
 1.  `display.scroll('Hello World')` will scroll the string 'Hello World!' across the LEDs on the micro:bit.
 
@@ -40,7 +40,7 @@ the micro:bit.
 ###Troubleshooting
 
 The display will finish quite quickly. If you missed it, just press the button that is
-underneath the microbit next to the USB cable. This will restart the micro:bit and your program
+underneath the micro:bit next to the USB cable. This will restart the micro:bit and your program
 will re-run.
 
 If you don't see the display that you expected, here are some steps to help you

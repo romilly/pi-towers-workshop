@@ -27,7 +27,7 @@ You've seen the first line before. It says you want to use the microbit module
 (library).
 
 The second line tells the micro:bit display to show an image. In this case, the
-image is pre-defined in the microbit module, and you can refer to it as `Image.HAPPY`
+image is pre-defined in the `microbit` module, and you can refer to it as `Image.HAPPY`
  
 Save your program as `happy.py` and click *mu*'s `Flash` button.
 Two dialogs will appear again. Close the dialogs as before.
@@ -166,7 +166,7 @@ Run this program. It should produce the same output as the earlier version but i
 
 If you wanted to display all twelve clock images you could do it by creating a larger list containing all the values.
 
-There's an even simpler way. The microbit module contains a pre-built list with all twelve clock faces.
+There's an even simpler way. The `microbit` module contains a pre-built list with all twelve clock faces.
 
 Try entering, saving and running this code:
 

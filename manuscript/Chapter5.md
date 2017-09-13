@@ -38,7 +38,7 @@ One way to do that is to use the Repl button on the mu program window.
 
 ![mu window](images/screen3.png)
 
-##*Repl* stands for **Read, Evaluate, Print Loop**
+###*Repl* stands for **R**ead, **e**valuate, **p**rint **l**oop
 
 ![REPL](images/repl.png)
 
@@ -62,7 +62,7 @@ Open a new *mu* window and enter the following program:
         sleep(100)
 
 
-Now use the `flash` button to install it on the microbit.
+Now use the `flash` button to install it on the micro:bit.
 
 When the micro:bit has finished flashing, your program will start running.
 

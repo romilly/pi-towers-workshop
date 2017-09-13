@@ -32,7 +32,8 @@ Have a go opening a few new files, and then closing them again.
 1. The `Flash` button will push your code onto the micro:bit.
 You'll learn more about this later on.
 
-1. The `Repl` button opens an **interactive shell**. This is covered in the next section.
+1. The `Repl` button opens an **interactive shell** or **R**ead-**e**valuate-**p**rint **l**oop.
+You'll use the `Repl` later in this workbook.
 
 1. The `Zoom` buttons will alter the size of the text in the window.
 
