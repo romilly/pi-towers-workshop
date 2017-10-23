@@ -1,68 +1,99 @@
+\newpage
 
+# Analogue Inputs
 
-#What's next
+In this chapter you'll monitor the light
+level with a micro:bit and a Light Dependent Resistor (LDR).
 
-If you want to explore the workbook later you will need a micro:bit and another
-computer to program it. The *mu* editor runs on the Pi, but it is also
-available for Microsoft Windows, MacOS and other versions of Linux. 
+So far you've seen how to check a digital
+(on/off) input, like a button. In these experiments you'll use an analogue
+input. These can measure a voltage between 0 and 3.3 volts. The micro:bit has
+three analogue inputs available (pins 3, 4 and 10).
 
+#### What you will learn
 
-##More stuff the micro:bit can do
+You'll learn about how LDRs behave as the light level changes,
+and you will learn how to read the value of an analogue input on the micro:bit.
 
-The micro:bit has a lot of additional hardware that we haven't covered in this
-workshop. There's an electronic compass which can tell you where North is.
-There's a radio, which means that two more micro:bits can send signals to each
-other.
+#### Why this is useful
 
-There are Digital inputs which can be used to keep track of what's happening in
-the outside world, and Digital Outputs which you can use to control more LEDs or
-control motors.
+If you're building a robot that steers itself, an unmanned helicopter, a
+weather station or an energy monitor, you'll need to read analogue
+values.
 
-There are Analog Inputs which can measure voltages, and you can use them with
-sensors to measure how light or dark the room is, or whether it's hot or cold.
+### Light dependent resistors
 
-You can send information between the micro:bit and another computer, and you can connect
-the micro:bit to other chips to add even more abilities.
+*Light Dependent Resistors* (LDRs, also known as photoresistors) are inexpensive, easy-to-use
+components that measure light levels by changing their resistance. A
+typical LDR might have a resistance of 5,000 ohms in daylight and
+100,000 ohms in the dark.
 
-## Help, please
+#### An LDR
 
-I'd appreciate your help.
+![An LDR](images/LDR.jpg)
 
-I published this free book [on LeanPub](https://leanpub.com/microbitmicropython) in order to make it easy for you to get
-started with MicroPython on the micro:bit. If you get the (free) version on Leanpub, you will also
-get future updates free.
+[The image on this wikipedia
+page](http://en.wikipedia.org/wiki/Photoresistor) shows a typical LDR.
 
-To help me improve it, could you take five minutes to fill out a
-[short online survey](https://goo.gl/forms/eeXtmhuQZISZ8VgZ2)?
+#### Schematic diagram
 
+![Schematic diagram](images/just-ldr_schem.png)
 
-##Where to find out more
+Here's how you can convert a varying light level into a varying voltage
+that the Arduino can measure.
 
-You've seen a bit about how to program in Python but you can do much more with the micro:bit
-that you have had time to cover today.
+The LDR is connected in series with a normal fixed resistor. As the
+light level changes, the resistance of the LDR changes too.
 
-There's a great free [Python Introduction](https://www.raspberrypi.org/learning/python-intro/)
-on the Raspberry Pi website.
+If you apply 5 volts across the circuit, the voltage at the junction of
+the LDR and the fixed resistor will change as the voltage of the LDR.
 
-It shows you how to program in Python on the Raspberry Pi.
-Python 3 on the Pi is the same language as MicroPython. The only difference is
-that MicroPython has its own modules for controlling the micro:bit.
+The circuit is a voltage divider; the voltage across each resistor is
+proportional to the resistance. So when the LDR is *brightly lit*, its
+resistance will be low and *the voltage across it will be low*.
 
-There are several places where you can find out more about the micro:bit.
+When the LDR is *dark*, its resistance will be high and *the voltage
+across it will be high*.
 
-* The [micro:bit foundation website](http://www.microbit.org/)
-* The Raspberry Pi Foundation website has several worksheets in its
-[learning section](https://www.raspberrypi.org/learning/).
-I used some of their material at the start of this workbook.
-* [microbit playground](https://microbit-playground.co.uk/)
-* [RAREblog](http://blog.rareschool.com/) The place where I blog about my own experiments,
-including a lot about the micro:bit, the Raspberry Pi and Robots.
-* [follow me on twitter](https://twitter.com/rareblog) for tweets about robots, electronics, Arduino and micro:bit
-* You can join this workbook's [private FaceBook group](https://www.facebook.com/groups/microbit60mins/). You'll have to
-ask to join. (That helps us keep spammers at bay!)
+#### Understanding Analogue input values on the Arduino
 
-You can contact me by email: I'm romilly.cocking@gmail.com
+When you use and Arduino to measure a voltage, you don't get a value in
+volts. The value returned by analogRead is an integer that ranges
+between 0 and 1023. A value of 0 indicates an input of 0 volts; a value
+of 1023 indicates an input of 5 volts.
 
-Have fun and keep learning!
- 
- 
+You'll need to take account of that later on when coding your sketch.
+
+### Breadboarding the LDR
+
+You should start by breadboarding the circuit using the LDR and resistor
+from your experimenter's kit.
+
+#### Using the Shrimp
+
+![Using the Shrimp](images/shrimp-ldr_bb.png)
+
+Here's how to add the LDR and resistor if you're using the Shrimp.
+
+#### Using the Arduino
+
+![Using the Arduino](images/arduino-ldr_bb.png)
+
+This is the corresponding diagram for the Arduino
+
+### Adapting the Analogue example
+
+There's a useful sketch among the Arduino samples which you can use to
+test your circuit as soon as you've breadboarded it.
+
+It's called *AnalogInput*, and it was intended to be used with a
+potentiometer (a variable resistor) but it will work just as well with
+our LDR and resistor combination.
+
+You'll need to make one change to it: the sketch assumes that you're
+using analogue input 0 (A0) but if you've followed the diagrams earlier
+you will be using analog input 5 (A5). It should be easy to see the the
+place in the sketch to make that change.
+
+You may also want to update the comments if you want to keep a copy of
+the modified sketch for future use.
