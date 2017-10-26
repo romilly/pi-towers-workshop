@@ -106,12 +106,12 @@ Here's the code:
 
 Once you have copied the code, flash it onto the micro:bit and open the REPL.
 
-You should see a serias of lines displaying ADC oupput based on the analogue voltage measured across the LDR.
+You should see a series of lines displaying ADC output based on the analogue voltage measured across the LDR.
 
 #### Working in the dark
 
-Cover the LDR with your hand. The value being printed shoudl go up. Now uncover the LDR.
-The value should go up again. 
+Cover the LDR with your hand. The value being printed should go *up*. Now uncover the LDR.
+The value should go down again. 
 
 Since an output of 0 corresponds to zero Volts, and an output of 1023 corresponds to a Voltage of 3.3 Volts,
 we can turn the ADC output into a voltage by dividing by 1023 and then multiplying by 3.3.
@@ -123,7 +123,7 @@ In Python, we can define that as a function:
         
 Add that function to your Python script and change the print statement to read `print (adc_to_amps(adc))` 
 
-Re-flash the program and look at the outptu in thr REPL again. Now you should see a series of floating-point
+Re-flash the program and look at the output in thr REPL again. Now you should see a series of floating-point
 (decimal) numbers being displayed, corresponding to the voltage measured at across the LDR.
     
 
@@ -152,7 +152,7 @@ How can we calculate the resistance from the measured voltage?
 
 Call the voltage across the LDR `v_ldr`. Call the (unknown) current through the circuit `i`.
 
-TODO: our, we -> your, you
+ TODO: our, we -> your, you
 
 Then the voltage across our 10K fixed resistor is `10000 * i`, so the known voltage across the LDR 
 `v_ldr = 3.3 - 10000 * i`. From this we can calculate i; solving for `i`, we have
@@ -163,10 +163,9 @@ Then the voltage across our 10K fixed resistor is `10000 * i`, so the known volt
 Now we know `i`, we can calculate the resistance of the LDR. It's `v_ldr/i`
 
 
-
+<!-- TODO: move calcs to a new Appendix? -->
 
 ### Converting to a Light Level
 
+Using a similar argument, you can construct a formula that will calculate a light level from the ADC output,
 
-
-Using a similar argument, you can construct a formula that will calculate the vol
