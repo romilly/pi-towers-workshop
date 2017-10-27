@@ -1,7 +1,7 @@
 import radio
 from microbit import *
 
-radio.config(group=0)
+radio.config(group=1)
 radio.on()
 
 

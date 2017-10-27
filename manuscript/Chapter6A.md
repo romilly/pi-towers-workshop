@@ -19,12 +19,118 @@ Here are a few of the projects you could do using micro:bit radio:
 In this chapter you'll see how easy it is to connect micro:bits together
 controlling the build-in radio from micro:python.
 
-## Send radio messages
+## Hello radio world
 
-Here's how you send messages between micro:bits.
+You'll need two micor:bits for this experiment. Micor:bit one will act as a transmitter; micorbit two will wait for a
+message from the transmitter and display a Smiley face before it shows the message on the scrolling display.
 
-1. You need to configure the microbits so they can talk to each other, but other microbits won't accidentally 
-overhear or interfere.
+The code for micro:bit one is pretty straightforward. It turns the radio on and then 
+loops forever, waiting for you to press button one.
+
+Once you have pressed the button, it sends a message over the radio to micro:bit number two.
+
+Here's the code for micro:bit one:
+
+    import radio
+    from microbit import *
+
+    # turn the radio on
+    radio.on()
+    
+    # loop waiting for buttion a
+    while True:
+        if button_a.is_pressed():
+            radio.send('Hello radio world!')
+            sleep(100)
+            
+The code for micro:bit two is just as simple. It turns the radio on and waits for a message. When a message is received,
+it shows a Happy face for a tenth of a second and then prinst the mesage it just received.
+
+Here's the code for micro:bit two:
+
+    import radio
+    from microbit import *
+    
+    # turn the radio on
+    radio.on()
+    
+    # loop waiting for a message
+    while True:
+        message = radio.receive()
+        if message:
+            display.show(Image.HAPPY)
+            sleep(100)
+            display.scroll(message)
+
+## Targetting radio messages
+
+There's one problem with this simple code. What if there are lots of micro:bits all sending or receiving messges?
+How does a micro:bit know which message is meant for it? This could be a problem if you had lots of people trying
+the same experiment in a clasroom or workshop.
+
+
+Here's how you send messages between specific micro:bits.
+
+You need to configure the microbit radios so they can talk to each other, but other microbits won't accidentally 
+overhear or interfere. You do so by setting special values called the channel, the address and the group.
+
+Whenever a mirco:bt sends a radio message it sends it over a particular channel. A channel is like the channle on a TV; 
+the mirco:but radios can use up to a hundered different channels.
+
+If two radios are using different channels they will not receive each others' messages. If they are using the same channel,
+they still won't recieve each others' messages unless these are being sent to the same address and group.
+
+An address is like a street address; it specifies the building, but there might be several people there.
+
+The group is more specific. It identifies exactly who should receive meesages sent to a given address.
+
+How did your earlier example work? It wokred because you didn;t specify the channel, address or group, so both micro:bits
+used the same default values.
+
+The default channel is channel 7.
+
+The default address is a 32-bit binary number. If you know how to write binary numbers in hexadecimal,
+the default is 0x75626974. That's 1969383796 in decimal notation.
+
+The default group is 0.
+
+If you want to specify the channel, address or group, you can do so ising the radio's configure method.
+
+In the examples  below the Python code specifies a group of 1 for each micro:bit. Once you have installed the code on each micro:bit
+they should be able to communicate.
+
+### micro:bit one
+
+    import radio
+    from microbit import *
+    
+    radio.config(group=1)
+    radio.on()
+    
+    
+    while True:
+        if button_a.is_pressed():
+            radio.send('Hello radio world!')
+            sleep(1000)
+            
+### micor:bit two
+
+    import radio
+    from microbit import *
+    
+    radio.config(group=1)
+    radio.on()
+    
+    
+    while True:
+        message = radio.receive()
+        if message:
+            display.show(Image.HAPPY)
+            sleep(100)
+            display.scroll(message)
+
+
+   
 1. You need to send a message (some text) from one micro:bit
 1. You need to read the message on one or more micro:bits, and take appropriate action.
 
