@@ -169,3 +169,5 @@ Now we know `i`, we can calculate the resistance of the LDR. It's `v_ldr/i`
 
 Using a similar argument, you can construct a formula that will calculate a light level from the ADC output,
 
+<!-- TODO: measure the chip temperature -->
+

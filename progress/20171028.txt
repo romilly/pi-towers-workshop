@@ -1,0 +1,12 @@
+   60   365  2108 manuscript/Chapter0.md
+   44   276  1625 manuscript/Chapter1.md
+   62   380  2287 manuscript/Chapter2.md
+  178   754  5192 manuscript/Chapter3.md
+   50   170  1138 manuscript/Chapter4.md
+  148   770  4939 manuscript/Chapter5.md
+  181  1118  6920 manuscript/Chapter6A.md
+   55   407  2184 manuscript/Chapter6B.md
+  173  1076  6224 manuscript/Chapter6.md
+   67   433  2834 manuscript/Chapter7.md
+   13    63   824 manuscript/LICENSE.md
+ 1031  5812 36275 total

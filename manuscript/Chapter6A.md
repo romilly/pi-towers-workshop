@@ -14,15 +14,32 @@ Here are a few of the projects you could do using micro:bit radio:
 - Log the water level in a tank, a pond or river
 - Take pictures of wildlife in your garden and send them to your computer
 - Control a mobile robot
-- sned secret messages from one room to another
+- send secret messages from one room to another
 
 In this chapter you'll see how easy it is to connect micro:bits together
 controlling the build-in radio from micro:python.
 
+## Fun with Fireflies
+
+I found a great demo of the micro:bit's radio capabilities in the MicroPython documentation.
+
+It's called Fireflies and you can find the code online.
+
+It works best with a *lot* of micro:bits. If you are using this workbook as part of a workshop with lots of micro:bits,
+and lots of people you can create your own group of Fireflies.
+
+The code works with just two micro:bits, but the more you
+have the more spectacular it looks.
+
+You can see a video with lots of simulated Fireflies here.
+
 ## Hello radio world
 
-You'll need two micor:bits for this experiment. Micor:bit one will act as a transmitter; micorbit two will wait for a
-message from the transmitter and display a Smiley face before it shows the message on the scrolling display.
+Fireflies are fun but radio can be really useful. Here's what you need to know if you want to use radio
+to send information from one micro:bit to another.
+
+You'll need two micro:bits for this experiment. Micro:bit one will act as a transmitter; micro:bit two will wait for a
+message from the transmitter and display a Happy face and then show the message on the scrolling display.
 
 The code for micro:bit one is pretty straightforward. It turns the radio on and then 
 loops forever, waiting for you to press button one.
@@ -62,7 +79,7 @@ Here's the code for micro:bit two:
             sleep(100)
             display.scroll(message)
 
-## Targetting radio messages
+## Targeting radio messages
 
 There's one problem with this simple code. What if there are lots of micro:bits all sending or receiving messges?
 How does a micro:bit know which message is meant for it? This could be a problem if you had lots of people trying
